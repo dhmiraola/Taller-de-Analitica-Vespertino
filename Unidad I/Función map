@@ -1,0 +1,7 @@
+data['ocean_proximity'] = data['ocean_proximity'].map({
+    '<1H OCEAN': 0,
+    'INLAND': 1,
+    'ISLAND': 2,
+    'NEAR BAY': 3,
+    'NEAR OCEAN': 4
+})
